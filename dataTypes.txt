@@ -1,0 +1,104 @@
+Integer - number - 4 bytes
+Float  - decimal number (1.532) - 4 bytes 
+Double - decimal number (2.33333333333) - 8 bytes
+char - letters - 1 bytes 
+
+source code -> pre-processor -> compiler -> executable program -> assembly 
+-> linking -> execution
+
+conio - console input and output
+
+
+Arithmatic operation -------------
+
++ - addition
+- - subtraction
+* - multiplication
+/ - Division
+% - Modulus
+
+
+common escape sequences ------
+
+\n - new line
+\t - tab - insert big space lie tab button
+\\ - backlash - prints a single backslash
+\" - Bouble quotes 
+---------------------------
+Relation Operation 
+
+returns true(1) false (0)
+
+== - > equals to 
+!= -> not equals to
+> -> greater than
+< -> less than 
+>= -> greater than or equals to 
+<= -> less than or equals to 
+
+if else 
+
+---------------
+Logical operators
+
+&& (AND) - if both condition satisfies 
+|| (OR) - atleast one matches or satisfies
+! (NOT) - Reverse the result 
+
+--------------------------------------
+Ternary operators
+
+condition ? expression_if _true : expression_if_false
+-------------------------------------------
+increment operators
+
+variable ++ - >5 increase to 6 (post increment)
+++ variable -- re increment
+
+--------------------------
+switch case 
+-------------------------
+
+cleaner way to write multiple else if . 
+statements when you are comparing one variable against multiple constant values
+
+switch(variable) {
+    case 1:
+        //code for value 1 matching 
+        break;
+    case 2:
+        /code for value 2 matching 
+    default:
+        // default executes if no case matches    
+}
+
+Loop 
+
+for Loop - used when you now the exact number of iterations;
+while Loop - Used when the number of iterations are not known, nut you have a specific condition to meet 
+do- while loop - It executes body first amd then chec condition. This results in code runs atleast once.
+
+for(initialization; condition; update){
+
+} 
+
+o(n)
+
+for(initialization; condition; update){
+    for(initialization; condition; update){
+
+    } 
+} 
+
+o(n^2)
+
+log n
+
+JsonData1 - mobile 
+JsonData2
+
+[1,2,3,4,5,6,7,8,9,10]
+
+i = 5
+
+j = 6
