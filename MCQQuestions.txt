@@ -1,0 +1,120 @@
+char str[] = "Hello";
+
+printf("%lu", strlen(str));
+Output?
+A) 4
+B) 5 
+C) 6
+D) Error
+
+char str[10] = "Hello";
+
+printf("%c", str[1]);
+Output?
+A) H
+B) e
+C) l
+D) o
+
+char str[] = "Hello";
+
+printf("%c", str[5]);
+Output?
+A) H
+B) o
+C) \0 
+D) Garbage
+
+char str[] = "Hello";
+
+strcpy(str, "World");
+What happens?
+A) Success
+B) Runtime Error
+C) Compilation Error
+D) Warning
+
+char str1[20] = "Hello";
+char str2[] = "World";
+
+strcat(str1, str2);
+
+printf("%s", str1);
+Output?
+A) Hello
+B) World
+C) HelloWorld -- answer
+D) Error
+
+
+char str[] = "banana";
+
+char *p = strchr(str, 'a');
+
+printf("%s", p);
+Output?
+A) banana
+B) anana
+C) nana
+D) a
+
+char str[] = "banana";
+
+char *p = strrchr(str, 'a');
+
+printf("%s", p);
+Output?
+A) anana
+B) nana
+C) a
+D) banana
+
+
+char str[] = "A,B,C";
+
+char *token = strtok(str, ",");
+
+printf("%s", token);
+Output?
+A) A
+B) B
+C) C
+D) NULL
+
+char str[] = "Hello";
+
+printf("%lu", sizeof(str));
+Output?
+A) 5
+B) 6
+C) 4
+D) Error
+
+char str1[] = "abc";
+char str2[] = "abc";
+
+printf("%d", strcmp(str1, str2));
+Output?
+A) 0
+B) 1
+C) -1
+D) Error
+-------------------------------------------
+[10,20, 30, 40]
+
+void main(10){
+
+}
+
+void - > return Type
+
+main - > function name 
+
+() -> input
+
+{} -> actual coding
+-------------------------
+
+
+
+
